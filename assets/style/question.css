@@ -1,0 +1,32 @@
+.question {
+	display: block;
+}
+
+.question.-hidden {
+	display: none;
+}
+
+.question__count {
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.question__header {
+	display: flex;
+	align-items: center;
+}
+
+.question__answers {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 425px) {
+	.question__header {
+		display: block;
+		text-align: center;
+	}
+
+	.question__count {
+		margin-bottom: 10px;
+	}
+}

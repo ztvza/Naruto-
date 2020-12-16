@@ -1,0 +1,66 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5a442;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+b {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+button {
+    padding: 15px;
+    font-size: 17px;
+    width: 100%;
+    text-align: left;
+    background-color:#f5a442; 
+    border: 2px solid black;
+    margin-bottom: 10px;
+    transition: color, background-color .6s;
+
+}
+
+button:hover {
+    background-color: #c96e00;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.akatsuki {
+    width: 25%;
+}

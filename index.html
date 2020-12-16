@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,100;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/style/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/hello.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/content.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/
+	guestions.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/
+	wariebles.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/result.css">
+	<link rel="stylesheet" type="text/css" href="./assets/style/question.css">
+</head>
+
+<body>		
+	<div class="container">
+		<div class="content">
+
+			<div class="hello" id="js-hello">
+				<h1></h1>	
+				<button class="result__restart" onclick="startTest()">Начать</button>
+			</div>
+
+			<div class="question -hidden" id="js-question">
+                <div class="question__header">
+                    <div class="question__count">
+                        <span class="question__number" id="js-questionNumber"></span><!--
+                        -->/<!--
+                        --><span id="js-totalQuestionCount"></span>
+                    </div>
+                    <h2 class="question__text" id="js-questionText"></h2>
+                </div>
+
+                <ul class="question__answers" id="js-answers"></ul>
+            </div>
+
+            <div class="result -hidden" id="js-result">
+                <h2 class="result__text" id="js-resultTitle"></h2>
+                <img src="" id="js-resultImage" class="result__image">
+
+                <p class="result__description" id="js-resultDescription"></p>
+                <button class="result__restart" onclick="restartTest()">Пройти заново</button>
+            </div>
+		</div>
+		<div class="center"><img class="akatsuki" src="https://lh3.googleusercontent.com/proxy/lhzrbdx91hXM3XWZU4FVt9XY3KiGfphp-rijswPBFgdl6kHNErK2-r51pJfZqpuj9SI_YCZrhhq7E2fMDZ1n7JF3QU_xMxBHpiggV1VjUu3M7drIGg"></div>
+	</div>
+
+	<script type="text/javascript" src="./assets/scripts/resultdata.js"></script>
+	<script type="text/javascript" src="./assets/scripts/questions.js"></script>
+	<script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+</html>
