@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 40px;
     margin-bottom: 8px;
 }
 
@@ -49,7 +49,6 @@ button {
     border: 2px solid black;
     margin-bottom: 10px;
     transition: color, background-color .6s;
-
 }
 
 button:hover {

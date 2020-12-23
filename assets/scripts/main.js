@@ -54,6 +54,18 @@ function showResult() {
 	document.getElementById('js-resultImage').src = result.resultImage;
 	document.getElementById('js-resultTitle').innerText = result.resultTitle;
 	document.getElementById('js-resultDescription').innerText = result.resultDesc;
+	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
+		{
+			url: 'тут будет что-то что ведёт кудато',
+			title: result.resultTitle,
+			image: result.resultImage,
+			noparse: true
+		},
+		{
+			type: 'link',
+			text: 'Текст кнопки'
+		}	
+	);
 }
 
 function restartTest() {
